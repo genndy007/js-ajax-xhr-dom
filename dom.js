@@ -16,6 +16,7 @@ function addUserText() {
     list.appendChild(newItem);
 }
 
+// set adding text at button click
 const addTextButton = gid('add_text');
 addTextButton.addEventListener('click', addUserText);
 
