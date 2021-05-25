@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX and DOM</title>
+    <style>
+        .yellow {
+            color: yellow;
+        }
+    </style>
+    <script src="./dom.js" defer></script>
+</head>
+<body>
+    <h1>DOM text adding</h1>
+    <button id="colorize_heading">Change heading color</button><br><br>
+    <input type="text" name="userText" id="input1" onfocus="this.value=''">
+    <button id="add_text">Add text</button>
+    <p>User entered text:</p>
+    <ul class="user_entered_text"></ul>
+</body>
+</html>
